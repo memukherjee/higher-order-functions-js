@@ -10,7 +10,7 @@ console.log(map(arrayOfNumbers, (number) => number * 2));
 console.log("Filter:");
 console.log(filter(arrayOfNumbers, (number) => number % 2 === 0));
 console.log("Reduce:");
-console.log(reduce(arrayOfNumbers, (acc, number) => acc + number));
+console.log(reduce(arrayOfNumbers, (accumulator, number) => accumulator + number));
 console.log("ForEach:");
 forEach(arrayOfNumbers, (number) => process.stdout.write(number+" "));
 console.log();
